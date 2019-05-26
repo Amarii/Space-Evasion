@@ -68,7 +68,7 @@ class Game {
         this.textfield = document.getElementsByTagName("textfield")[0];
         this.recovery = new Recovery(this, this.ship);
         this.ship = new Ship();
-        for (let i = 0; i < 50; i++) {
+        for (let i = 0; i < 200; i++) {
             this.bomb.push(new Bomb(this));
         }
         for (let i = 0; i < 5; i++) {
